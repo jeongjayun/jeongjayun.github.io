@@ -39,7 +39,7 @@ social:
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   # name: your_full_name
   # email: example@domain.com # change to your email address
-  links:
+  # links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your twitter homepage
     - https://github.com/jeongjayun # change to your github homepage
@@ -80,7 +80,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+# avatar:
 
 # boolean type, the global switch for TOC in posts.
 toc: true
