@@ -1,5 +1,5 @@
 ---
-title: "Clean Code 챌린지 00" 
+title: Clean Code 챌린지 00 
 date: 2023-05-26 23:29:08 +/- TTTT
 categories: [BOOKS, Clean Code]
 tags: [til]     # TAG names should always be lowercase
