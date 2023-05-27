@@ -1,0 +1,41 @@
+/*
+ * The SCSS variables
+ */
+
+@font-face {
+    font-family: 'NEXON Lv2 Gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: 'LeferiPoint-SpecialItalicA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialItalicA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* sidebar */
+
+$sidebar-width: 260px !default; /* the basic width */
+$sidebar-width-large: 300px !default; /* screen width: >= 1650px */
+
+/* other framework sizes */
+
+$topbar-height: 3rem !default;
+$search-max-width: 210px !default;
+$footer-height: 5rem !default;
+$footer-height-mobile: 6rem !default; /* screen width: < 850px */
+$main-content-max-width: 1250px !default;
+$bottom-min-height: 35rem !default;
+$base-radius: 0.5rem;
+
+/* syntax highlight */
+
+$code-font-size: 0.85rem !default;
+
+/* fonts */
+
+$font-family-base: 'NEXON Lv2 Gothic';
+$font-family-heading: 'LeferiPoint-SpecialItalicA';
