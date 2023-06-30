@@ -1,5 +1,5 @@
 ---
-title: 제49회 SQLD 개발자 합격
+title: 제49회 SQLD 합격
 date: 2023-06-30 16:00:00 +/- TTTT
 categories: [BLOG]
 tags: [자격증] # TAG names should always be lowercase
