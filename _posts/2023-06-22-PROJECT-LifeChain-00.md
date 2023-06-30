@@ -36,6 +36,6 @@ tags: [project] # TAG names should always be lowercase
 ## 개발 환경 🍀
 
 - JAVA (jdk11)
-- SPRING BOOT (2.7.12)
+- SPRING BOOT (2.7.12) Type. Gradle 
 - MySQL
 - ....
