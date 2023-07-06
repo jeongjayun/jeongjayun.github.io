@@ -449,56 +449,13 @@ public MemberInfo getMemberInfoByMember(Member member) { //member로 memberInfo 
                     </div>
                     <!-- /Account -->
                 </div>
-                <div class="card">
-                    <h5 class="card-header">회원 탈퇴</h5>
-                    <div class="card-body">
-                        <div class="mb-3 col-12 mb-0">
-                            <div class="alert alert-warning">
-                                <h6 class="alert-heading fw-bold mb-1">계정을 삭제하시겠습니까?</h6>
-                                <p class="mb-0">계정을 삭제하면 되돌릴 수 없습니다.</p>
-                            </div>
-                        </div>
-                        <form id="formAccountDeactivation" method="post"
-                              th:action="@{'/admin/account/' + ${member.id}}">
-                            <input type="hidden" name="_method" value="DELETE"/>
-                            <div class="form-check mb-3">
-                                <input
-                                        class="form-check-input"
-                                        type="checkbox"
-                                        name="accountActivation"
-                                        id="accountActivation"
-                                />
-                                <label class="form-check-label" for="accountActivation">숙지했습니다.</label>
-                            </div>
-                            <input type="hidden" name="id" th:value="${member.id}"/>
-                            <button type="submit" class="btn btn-danger deactivate-account" disabled>회원 탈퇴</button>
-                        </form>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
-
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const accountActivationCheckbox = document.getElementById("accountActivation");
-        const deactivateButton = document.querySelector(".deactivate-account");
-
-        accountActivationCheckbox.addEventListener('change', function() {
-            if (accountActivationCheckbox.checked) {
-                deactivateButton.disabled = false;
-            } else {
-                deactivateButton.disabled = true;
-            }
-        });
-    });
-
-    </script>
 </div>
     <!-- / Content -->
 
 ```
-
 
 > model.addAttribute("member", member);   
 > model.addAttribute("memberInfo", memberInfo);
