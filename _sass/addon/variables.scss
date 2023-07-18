@@ -16,6 +16,20 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'LeferiPoint-SpecialA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeferiPoint-WhiteObliqueA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* sidebar */
 
 $sidebar-width: 260px !default; /* the basic width */
@@ -38,4 +52,4 @@ $code-font-size: 0.85rem !default;
 /* fonts */
 
 $font-family-base: 'NEXON Lv2 Gothic';
-$font-family-heading: 'LeferiPoint-SpecialItalicA';
+$font-family-heading: 'LeferiPoint-SpecialA';

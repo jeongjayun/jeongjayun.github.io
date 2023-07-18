@@ -9,9 +9,30 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'EF_jejudoldam';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EF_Rebecca';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_Rebecca.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face { /*포스트 타이틀*/
   font-family: 'LeferiPoint-SpecialItalicA';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialItalicA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeferiPoint-SpecialA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialA.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -395,7 +416,7 @@ i {
 
 .post {
   h1 {
-    font-family: 'LeferiPoint-SpecialItalicA';
+    font-family: 'LeferiPoint-SpecialA';
     margin-top: 2rem;
     margin-bottom: 1.5rem;
   }
@@ -767,7 +788,7 @@ $btn-mb: 0.5rem;
   }
 
   .site-title {
-    font-family: 'OKGUNG';
+    font-family: 'EF_jejudoldam';
     font-weight: 900;
     font-size: 1.75rem;
     line-height: 1.2;
@@ -797,7 +818,7 @@ $btn-mb: 0.5rem;
     margin-bottom: 2rem;
 
     li.nav-item {
-      font-family: 'OKGUNG';
+      font-family: 'EF_jejudoldam';
       opacity: 0.9;
       width: 100%;
       padding-left: 1.5rem;
@@ -1091,7 +1112,7 @@ $btn-mb: 0.5rem;
   display: none;
   font-size: 1.1rem;
   font-weight: 600;
-  font-family: 'OKGUNG';
+  font-family: 'EF_jejudoldam';
   color: var(--topbar-text-color);
   text-align: center;
   width: 70%;
