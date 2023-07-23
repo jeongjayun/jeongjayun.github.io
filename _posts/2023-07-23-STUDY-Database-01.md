@@ -1,5 +1,5 @@
 ---
-title: Database의 종류와 고르는 법 🗂️
+title: Database의 종류와 특징 🗂️
 date: 2023-07-23 14:00:00 +/- TTTT
 categories: [STUDY, Database]
 tags: [db] # TAG names should always be lowercase
