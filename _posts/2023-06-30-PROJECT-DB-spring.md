@@ -1,7 +1,6 @@
 ---
 title: Team Project) DB ~ Spring 쇼핑몰 프로젝트 ~ 
 date: 2023-06-22 17:00:00 +/- TTTT
-pin: true
 categories: [PROJECT, DB]
 tags: [project, spring] # TAG names should always be lowercase
 ---

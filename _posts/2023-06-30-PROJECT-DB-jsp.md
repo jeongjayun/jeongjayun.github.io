@@ -1,7 +1,6 @@
 ---
 title: Team Project) DB ~ jsp, mvc2 쇼핑몰 프로젝트 ~ 
 date: 2023-05-30 20:00:00 +/- TTTT
-pin: true
 categories: [PROJECT, DB]
 tags: [project, jsp, mvc2] # TAG names should always be lowercase
 ---
