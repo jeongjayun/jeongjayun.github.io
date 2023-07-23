@@ -2,33 +2,8 @@
  * The SCSS variables
  */
 
-@font-face {
-    font-family: 'NEXON Lv2 Gothic';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face { 
-    font-family: 'LeferiPoint-SpecialItalicA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialItalicA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'LeferiPoint-SpecialA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'LeferiPoint-WhiteObliqueA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@800&family=Noto+Sans:wght@500&display=swap');
 
 /* sidebar */
 
@@ -51,5 +26,5 @@ $code-font-size: 0.85rem !default;
 
 /* fonts */
 
-$font-family-base: 'NEXON Lv2 Gothic';
-$font-family-heading: 'LeferiPoint-SpecialA';
+$font-family-base: 'Noto Sans', sans-serif;
+$font-family-heading: 'Catamaran', sans-serif;

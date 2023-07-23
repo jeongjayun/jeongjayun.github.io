@@ -16,33 +16,9 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'EF_Rebecca';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_Rebecca.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face { /*포스트 타이틀*/
-  font-family: 'LeferiPoint-SpecialItalicA';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialItalicA.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'LeferiPoint-SpecialA';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialA.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face { /*기본 폰트*/
-  font-family: 'NEXON Lv1 Gothic OTF';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@800&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@800&family=Noto+Sans:wght@500&display=swap');
 
 html {
   @media (prefers-color-scheme: light) {
@@ -416,7 +392,7 @@ i {
 
 .post {
   h1 {
-    font-family: 'LeferiPoint-SpecialA';
+    font-family: 'Catamaran', sans-serif;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
   }
